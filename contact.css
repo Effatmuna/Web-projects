@@ -1,0 +1,163 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  ;
+}
+
+
+.div1 {
+
+  flex-basis: 400px;
+  width: 200px;
+  border: 1px solid rgb(229, 224, 224);
+  border-top: 20px solid palevioletred;
+
+
+}
+
+.div2 {
+
+  width: 200px;
+  border: 1px solid black;
+  border-top: 20px solid seagreen;
+
+
+
+
+}
+
+.div3 {
+
+  width: 200px;
+  border: 1px solid black;
+  border-top: 20px solid green;
+
+
+
+
+}
+
+.div4 {
+
+  width: 200px;
+  border: 1px solid black;
+  border-top: 20px solid peru;
+
+
+
+
+}
+
+.div5 {
+
+  width: 200px;
+  border: 1px solid black;
+  border-top: 20px solid lightseagreen;
+
+
+
+
+}
+
+#para1 {
+  font-size: 20px;
+}
+
+#img1 {
+  background-color: palevioletred;
+  padding: 20px;
+  border-radius: 50%;
+}
+
+#img2 {
+  background-color: seagreen;
+  padding: 20px;
+  border-radius: 50%;
+}
+
+#img3 {
+  background-color: green;
+  padding: 20px;
+  border-radius: 50%;
+}
+
+#img4 {
+  background-color: sienna;
+  padding: 20px;
+  border-radius: 50%;
+}
+
+#img5 {
+  background-color: lightseagreen;
+  padding: 20px;
+  border-radius: 50%;
+}
+
+button {
+  background-color: palevioletred;
+  color: white;
+  border-radius: 10px;
+  border: none;
+  padding: 10px 20px;
+  margin-top: 20px;
+}
+
+@font-face {
+  font-family: myfont;
+  src: url(Playwrite_PE/PlaywritePE-VariableFont_wght.ttf);
+}
+
+h3 {
+  font-family: myfont;
+}
+
+/*shortand*/
+p.b {
+  font: italic small-caps bold 12px/30px Georgia, serif;
+}
+
+
+
+.roboto-thin {
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.roboto-light {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.container {
+  width: 500px;
+  height: 400px;
+  background-color: #8a2be2;
+  margin: auto;
+  text-align: center;
+}
+
+
+.box1 {
+  text-align: center;
+  background-color: rgb(237, 237, 82);
+  width: 200px;
+  height: 200px;
+  margin:100px auto;
+  position: relative;
+
+
+
+}
+
+.box2 {
+  text-align: center;
+  background-color: rgb(131, 250, 131);
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: 50px;
+  left: 50px;
+
+}
